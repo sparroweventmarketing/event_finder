@@ -27,8 +27,6 @@ Quickly search events in your market with our simple extension for Google Chrome
 
 ### Downloading &#x26; Installing
 
-#### Download
-
 **To download, scroll to the top of this page, click the green `<> Code` button and click `Download Zip`**
 
 **Version**: 0.0.1\
