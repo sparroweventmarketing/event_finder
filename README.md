@@ -1,20 +1,14 @@
----
-description: >-
-  Quickly search events in your market with our simple extension for Google
-  Chrome.
----
-
 # Chrome Extension: Event Finder
+Quickly search events in your market with our simple extension for Google Chrome.
 
-Want to dive right in? [Jump to Downloading & Installing »](chrome-extension-event-finder.md#downloading-and-installing)
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-01-05 at 12.43.09.jpg" alt=""><figcaption></figcaption></figure>
-
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqAQ90jsQ9Dz1TDhvquxy%2Fuploads%2F2VjNBmsYJ2nRKCvp8hXw%2FCleanShot%202024-01-05%20at%2012.43.09.jpg?alt=media&token=8f7c1731-cd3d-4a5b-810b-507f9ce2bd1c" alt=""><figcaption></figcaption></figure>
  
 
-<figure><img src="../../.gitbook/assets/CleanShot 2024-01-05 at 12.46.10.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqAQ90jsQ9Dz1TDhvquxy%2Fuploads%2FaHij05Znos2R0tapAp2v%2FCleanShot%202024-01-05%20at%2012.46.10.jpg?alt=media&token=29b216ba-44d5-44ee-9d09-6fd016163148" alt=""><figcaption></figcaption></figure>
+
 
 </div>
 
@@ -31,22 +25,20 @@ Want to dive right in? [Jump to Downloading & Installing »](chrome-extension-ev
 * Marketing teams - See competing events that might affect sales.
 * Everyone - Go see more live music! See what's happening in your time.
 
-### Instructions
+## Instructions
 
-<details>
+### Downloading &#x26; Installing
 
-<summary>Downloading &#x26; Installing</summary>
+#### Download
 
-### Download
-
-[DOWNLOAD THE EXTENSION HERE »](https://getsparrow.co/event\_finder/event\_finder.zip) ([https://www.getsparrow.co/event\_finder/event\_finder.zip](https://www.getsparrow.co/event\_finder/event\_finder.zip))
+[DOWNLOAD THE EXTENSION HERE »](https://getsparrow.co/event\_finder/event\_finder.zip)
 
 **Version**: 0.0.1\
 **Last updated**: 01-05-2024
 
 ***
 
-### Install
+#### Install
 
 **Step 1: Extract the Extension Files**
 
@@ -67,11 +59,7 @@ Want to dive right in? [Jump to Downloading & Installing »](chrome-extension-ev
 1. **Click on 'Load Unpacked'**: On the Extensions page, with Developer Mode enabled, you'll see a button labeled “Load unpacked”. Click on it.
 2. **Select the Extension Folder**: Navigate to the folder where you extracted the Chrome extension files. Select the folder (not the individual files) and click “Select Folder” (or just “Open” depending on your operating system).
 
-</details>
-
-<details>
-
-<summary>Using the Extension</summary>
+### Using the Extension
 
 #### Opening the Extension
 
@@ -96,16 +84,10 @@ Want to dive right in? [Jump to Downloading & Installing »](chrome-extension-ev
 1. If you wish to download the list of events, click the "Download all to CSV" link located below the search results.
 2. This will download a CSV file containing the event details to your computer.
 
-</details>
-
-<details>
-
-<summary>Settings</summary>
+### Settings
 
 1. **Access Settings:** To customize your experience, click the cog icon located in the lower right corner of the form.
 2. **Settings:**
    1. **Default City** - This will pre-populate the city field with your city.
    2. **Prism Integration (coming soon)** - This will pre-populate the date with the date you click on in the Prism calendar view.
 3. Enter your settings and click "Save" to update your settings.
-
-</details>
