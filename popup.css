@@ -1,0 +1,215 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 10px;
+    width: 400px; /* Adjust the width as needed */
+}
+
+/* Styling the Form */
+#form {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin:0 auto;
+    display:block;
+    position:relative;
+}
+
+input[type="text"], input[type="date"], button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: calc(100% - 10px); /* Adjust width to fill the form */
+}
+
+#title {
+    margin:0 auto;
+    display:block;
+    width:225px;
+}
+button {
+    background-color: #3d94d6;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 10px); /* Reset width for buttons */
+}
+
+button:hover {
+    background-color: #1b83d1;
+}
+
+/* Toggle End Date Button Style */
+#toggleDate {
+    background: none;
+    border: none;
+    color: gray;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.8em;
+    display: block;
+    margin-top: -3px;
+}
+
+/* Loading Animation */
+.loading-spinner {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Styling the Results */
+.event {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 50px auto;
+    gap: 10px;
+    align-items: start; /* Align items to the start of the grid row */
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.event:hover {
+    background-color: #f9f9f9;
+}
+
+.event-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    grid-row: 1 / span 2; /* Span across two rows */
+}
+
+.event h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.1em;
+}
+
+.event p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.event-date {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 0.8em;
+    background-color: #f4f4f4;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+
+.warning-message {
+    color: gray;
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-csv-link {
+    background: none;
+    border: none;
+    color: #3d94d6;
+    font-size: 0.8em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.download-csv-link:hover {
+    opacity:0.8;
+    background: none;
+}
+
+.status-indicator {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.status-indicator:hover::after {
+    content: "Connected to Prism";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+#openSettings {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    opacity: 0.5;
+    font-size:2.3em;
+    text-decoration: none;
+    color:dimgray;
+}
+
+#openSettings:hover {
+    opacity: 1;
+    animation: spin 10s linear infinite;
+}
+
+#goBack {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    opacity: 0.8;
+    font-size:0.8em;
+    text-decoration: none;
+    color:dimgray;
+}
+
+#settingsForm {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+}
+
+.coming-soon-option {
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: #999; /* Greyed out color */
+}
+
+.coming-soon-option input[type="checkbox"] {
+    cursor: not-allowed;
+}
+
+.coming-soon-option label {
+    cursor: not-allowed;
+    opacity: 0.6; /* Lower opacity to indicate disabled state */
+}

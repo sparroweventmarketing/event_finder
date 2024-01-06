@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Event Finder (Beta) by Sparrow",
+  "version": "1.0",
+  "permissions": ["storage", "activeTab", "scripting", "tabs"], // Added "tabs" permission
+  "options_page": "settings.html",
+  "host_permissions": [
+    "https://concerts-artists-events-tracker.p.rapidapi.com/*"
+  ],
+    "icons": {
+      "16": "images/16.png",  
+      "48": "images/48.png",  
+      "128": "images/128.png"  
+    },
+    "description": "Search concerts in a market and date or date range. Optionally download them all to CSV.",
+      "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "images/16.png",  
+          "48": "images/48.png",  
+          "128": "images/128.png"  
+        }
+    },
+  "content_scripts": [
+    {
+      "matches": ["*://app.prism.fm/calendar*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js" // Ensure background.js contains the necessary logic
+  }
+}

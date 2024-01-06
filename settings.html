@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Finder Settings</title>
+    <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="settingsContainer">
+        <form id="form">
+            <h1>Settings</h1>
+            <label for="defaultCity">Set a Default City:</label>
+            <input type="text" id="defaultCity" name="defaultCity" placeholder="City, State (e.g. Los Angeles, LA)">
+            <div class="coming-soon-option">
+                <label for="integratePrism">Integrate with Prism (Coming soon)</label>
+                <input type="checkbox" id="integratePrism" name="integratePrism" disabled>
+            </div>
+            <button type="submit">Save</button>
+            <a href="popup.html" id="goBack" title="Go Back">← Go Back</a>
+            <hr>
+            <h2>FAQs</h2>
+            <p><strong>How do I use this extension?</strong></p>
+            <a href="https://learn.getsparrow.co/tutorials/integrations/chrome-extension-event-finder#using-the-extension" target="_blank">Read the tutorial here »</a>
+            <p><strong>Who built this?</strong></p>
+            <p>I did! Hi, I'm Mike Mauer from Sparrow. Want to sell more tickets? <a href="http://getsparrow.co" target="_blank">Learn how Sparrow can help »</a></p>
+        </form>
+    </div>
+    <!-- Link to your JavaScript file -->
+    <script src="settings.js"></script>
+</body>
+</html>

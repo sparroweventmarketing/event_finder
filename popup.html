@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Event Finder</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="form">
+    <img src="/images/title.png" id="title">
+    <input type="text" id="city" placeholder="City, State (e.g. Los Angeles, CA)" required>
+    <label for="startDate" style="display: none;" id="startDateLabel" >Start Date:</label>
+    <input type="date" id="startDate" required>
+    <label for="endDate" style="display: none;" id="endDateLabel">End Date:</label>
+    <input type="date" id="endDate" style="display: none;" placeholder="End Date">
+    <button id="search">Search Events</button>
+    <button id="toggleDate">Add End Date »</button>
+    <a href="settings.html" id="openSettings" title="Settings">⚙</a>
+  </div>
+  <div id="results"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
