@@ -4,8 +4,6 @@ Quickly search events in your market with our simple extension for Google Chrome
 
 <div align="center">
 
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqAQ90jsQ9Dz1TDhvquxy%2Fuploads%2F2VjNBmsYJ2nRKCvp8hXw%2FCleanShot%202024-01-05%20at%2012.43.09.jpg?alt=media&token=8f7c1731-cd3d-4a5b-810b-507f9ce2bd1c" alt=""><figcaption></figcaption></figure>
- 
 
 <figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FqAQ90jsQ9Dz1TDhvquxy%2Fuploads%2FaHij05Znos2R0tapAp2v%2FCleanShot%202024-01-05%20at%2012.46.10.jpg?alt=media&token=29b216ba-44d5-44ee-9d09-6fd016163148" alt=""><figcaption></figcaption></figure>
 
