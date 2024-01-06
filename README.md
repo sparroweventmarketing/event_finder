@@ -29,7 +29,7 @@ Quickly search events in your market with our simple extension for Google Chrome
 
 #### Download
 
-[DOWNLOAD THE EXTENSION HERE »](https://getsparrow.co/event\_finder/event\_finder.zip)
+**To download, scroll to the top of this page, click the green `<> Code` button and click `Download Zip`**
 
 **Version**: 0.0.1\
 **Last updated**: 01-05-2024
