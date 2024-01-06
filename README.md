@@ -89,6 +89,6 @@ Quickly search events in your market with our simple extension for Google Chrome
 3. Enter your settings and click "Save" to update your settings.
 
 ### FAQs
-1. **How accurate is this?** - This extension pulls events from Songkick's event feed. The data may be incomplete or inaccurate.
+1. **How accurate is this?**  This extension pulls events from Songkick's event feed. The data may be incomplete or inaccurate.
 
-2. **Who built this?** - I did! Hi, I'm Mike Mauer from Sparrow. Want to sell more tickets? [https://getsparrow.co](Learn how Sparrow can help »)
+2. **Who built this?**  I did! Hi, I'm Mike Mauer from Sparrow. Want to sell more tickets? Learn how Sparrow can help » https://getsparrow.co
