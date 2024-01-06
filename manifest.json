@@ -24,10 +24,10 @@
   "content_scripts": [
     {
       "matches": ["*://app.prism.fm/calendar*"],
-      "js": ["content.js"]
+      "js": ["scripts/content.js"]
     }
   ],
   "background": {
-    "service_worker": "background.js" // Ensure background.js contains the necessary logic
+    "service_worker": "scripts/background.js" // Ensure background.js contains the necessary logic
   }
 }
