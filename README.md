@@ -87,3 +87,8 @@ Quickly search events in your market with our simple extension for Google Chrome
    1. **Default City** - This will pre-populate the city field with your city.
    2. **Prism Integration (coming soon)** - This will pre-populate the date with the date you click on in the Prism calendar view.
 3. Enter your settings and click "Save" to update your settings.
+
+### FAQs
+1. **How accurate is this?** - This extension pulls events from Songkick's event feed. The data may be incomplete or inaccurate.
+
+2. **Who built this?** - I did! Hi, I'm Mike Mauer from Sparrow. Want to sell more tickets? [https://getsparrow.co](Learn how Sparrow can help »)
