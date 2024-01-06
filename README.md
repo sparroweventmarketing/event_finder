@@ -21,7 +21,7 @@ Quickly search events in your market with our simple extension for Google Chrome
 
 * Booking teams - Quickly cross reference holds for competing events.
 * Marketing teams - See competing events that might affect sales.
-* Everyone - Go see more live music! See what's happening in your time.
+* Everyone - Go see more live music! See what's happening in your city.
 
 ## Instructions
 
