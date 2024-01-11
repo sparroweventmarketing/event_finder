@@ -30,18 +30,18 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     if (tab.url && tab.url.includes('app.prism.fm/calendar')) {
         chrome.action.setIcon({
             path: {
-                "16": "images/16-green.png",  
-                "48": "images/48-green.png",  
-                "128": "images/128-green.png"
+                "16": "/images/16-green.png",  
+                "48": "/images/48-green.png",  
+                "128": "/images/128-green.png"
             },
             tabId: tabId
         });
     } else {
         chrome.action.setIcon({
             path: {
-                "16": "images/16.png",  
-                "48": "images/48.png",  
-                "128": "images/128.png"
+                "16": "/images/16.png",  
+                "48": "/images/48.png",  
+                "128": "/images/128.png"
             },
             tabId: tabId
         });
